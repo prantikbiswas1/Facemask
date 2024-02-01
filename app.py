@@ -60,4 +60,4 @@ def image(data_image):
 
 
 if __name__ == '__main__':
-    socketio.run(app,host=host,port=port,debug=True)
+    socketio.run(app)
