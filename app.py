@@ -27,10 +27,17 @@ data = {
     'port' : port
 }
 
+@app.route("/")
+def hello():
+    return ("Hello World")
+
 
 @app.route("/json")
 def send_json():
     return jsonify(data)
+
+if __name__ == "__main__":
+    app.run()
 
 
 # @socketio.on('image')
