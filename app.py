@@ -10,6 +10,7 @@ import base64
 import numpy as np
 from dotenv import load_dotenv
 import os
+
 load_dotenv()
 
 host = os.environ.get("HOST")
@@ -57,7 +58,3 @@ def image(data_image):
 
     # emit the frame back
     emit('response_back', stringData)
-
-
-if __name__ == '__main__':
-    socketio.run(app)
