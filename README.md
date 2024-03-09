@@ -13,8 +13,10 @@ This web application is designed to detect whether individuals in a webcam strea
 
 - Python installed on your system.
 - Web browser with webcam permissions enabled.
+- Requirements.txt
 
 ### Running the Web App
 
 1. Clone this repository to your local machine:
+   git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
