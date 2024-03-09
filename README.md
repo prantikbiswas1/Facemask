@@ -18,5 +18,5 @@ This web application is designed to detect whether individuals in a webcam strea
 ### Running the Web App
 
 1. Clone this repository to your local machine:
-   git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+   git clone https://github.com/prantikbiswas1/Facemask.git
 
